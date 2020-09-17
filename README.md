@@ -23,3 +23,4 @@ Fluxo
 
 
 
+PS: Na WIKI contem .sql para criar o banco de dados com alguns dados iniciais
