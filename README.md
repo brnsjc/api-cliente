@@ -26,7 +26,8 @@ Fluxo
 2 Apis
 * Foi definida 2 apis ou dois microserviços que gerenciem e separem as reponsabilidades, permitindo estacabalidade e funcionamento indepennte, sendo assim, em futuros problemas sempre terá uma api UP pronta pra uso
 
-
+Documentacao
+* Api com rotas e model documentadas em : http://localhost:8082/swagger-ui.html
 
 
 
