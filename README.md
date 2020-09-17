@@ -20,7 +20,14 @@ Fluxo
 * Após entendimento da necessidade e regra de negocio, foi criada a camada de Business para executar toda a regra;
 * Na camada business posui a verificação de campanhas, quais são vencidas, alteração, e save;
 * Ao inserir nova campanha, a camada Business verifica campanhas com a mesma data e realiza todo o processo de atualização adicionando dias as datas de forma que não tenham campanhas que vençam no mesmo dia;
+* Api-Campanha esta em localhost:8082 ficando a espera para consultas, cadastros, atualizações e delete.
+* Api-Cliente consulta a api em 8082 localmente para obter informações das campanhas e gerenciar de acordo com o cliente. Usado Feign para a integração;
+
+2 Apis
+* Foi definida 2 apis ou dois microserviços que gerenciem e separem as reponsabilidades, permitindo estacabalidade e funcionamento indepennte, sendo assim, em futuros problemas sempre terá uma api UP pronta pra uso
 
 
 
-PS: Na WIKI contem .sql para criar o banco de dados com alguns dados iniciais
+
+
+PS: Na WIKI contem .sql para criar o banco de dados com alguns dados iniciais, segunda api em : https://github.com/brnsjc/api-campanha
